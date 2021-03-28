@@ -2,15 +2,15 @@ var bgImg, tomImg1, tomImg2, tomImg4, tom, jerryImg1, jerryImg2, jerryImg3, jerr
 
 function preload() {
     //load the images here
-    bgImg = loadImage("images/garden.png");
+    bgImg = loadImage("garden.png");
 
-    tomImg1 = loadAnimation("images/cat1.png");
-    tomImg2 = loadAnimation("images/cat2.png", "images/cat3.png");
-    tomImg4 = loadAnimation("images/cat4.png");
+    tomImg1 = loadAnimation("cat1.png");
+    tomImg2 = loadAnimation("cat2.png", "cat3.png");
+    tomImg4 = loadAnimation("cat4.png");
 
-    jerryImg1 = loadAnimation("images/mouse1.png");
-    jerryImg2 = loadAnimation("images/mouse3.png", "images/mouse4.png");
-    jerryImg3 = loadAnimation("images/mouse2.png");
+    jerryImg1 = loadAnimation("mouse1.png");
+    jerryImg2 = loadAnimation("mouse3.png", "mouse4.png");
+    jerryImg3 = loadAnimation("mouse2.png");
 
 }
 
